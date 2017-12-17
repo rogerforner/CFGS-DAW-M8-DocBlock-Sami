@@ -1,0 +1,46 @@
+{
+    "name": "Connectar",
+    "line": 10,
+    "short_desc": "Establir una connexi\u00f3 a la base de dades biblioteca, amb l'prestec gru1 i\nclau d'acc\u00e9s grup1, tot aix\u00f2 sobre el servidor localhost. Tamb\u00e9 es defineix\nque el conjunt de car\u00e0cters que ser\u00e0 emprat quan s'env\u00eden dades al servidor\nser\u00e0 UTF8.",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "author": [
+            [
+                "Roger",
+                "Forner",
+                "Fabre"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/home\/alumne\/www\/tinkeringDocBlock_Sami\/\/Formularis_html\/Prestecs\/models\/Connectar.php",
+    "relative_file": null,
+    "hash": "47c7a99f4366cb56c67ebb5ec5ac48b72e1d952f",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "connexio": {
+            "name": "connexio",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

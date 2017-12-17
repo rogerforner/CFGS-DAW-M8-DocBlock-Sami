@@ -1,0 +1,609 @@
+{
+    "name": "Prestecs",
+    "line": 11,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "",
+    "file": "\/home\/alumne\/www\/tinkeringDocBlock_Sami\/\/Formularis_html\/Prestecs\/models\/Prestecs.php",
+    "relative_file": null,
+    "hash": "fa1c20c3cb35d0d18ef3b149612ae26766cf60c5",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 47,
+            "short_desc": "El constructor es cridat cada cop que l'objecte es creat:\n$prestecs = new Prestecs();\nMitjan\u00e7ant aquest s'inicialitzar\u00e0n els atributs (arguments) de la classe.",
+            "long_desc": "S\u00f3n necessaris m\u00faltiples constructors per\u00f2 en PHP una classe nom\u00e9s pot tenir\nun sol constructor. Un fet que es soluciona simulant l'exist\u00e8ncia de m\u00e9s\nd'un constructor a trav\u00e9s del principal.\n\nEl constructor es simula:\n__constructNumeroArguments($argument, $argument, ...)\n__construct1($arg1)\n__construct2($arg1, $arg2)\n__constructN(...)\n\nA trav\u00e9s d'aquest constructor buit (sense arguments) duem a terme la\nsimulaci\u00f3 de constructors.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "author": [
+                    [
+                        "Roger",
+                        "Forner",
+                        "Fabre"
+                    ]
+                ]
+            },
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "__construct1": {
+            "name": "__construct1",
+            "line": 58,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 58,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "__construct7": {
+            "name": "__construct7",
+            "line": 62,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dataSortida": {
+                    "name": "dataSortida",
+                    "line": 62,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "dataMaxDevolucio": {
+                    "name": "dataMaxDevolucio",
+                    "line": 62,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "dataRealDevolucio": {
+                    "name": "dataRealDevolucio",
+                    "line": 62,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "numPrestecs": {
+                    "name": "numPrestecs",
+                    "line": 62,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "maxPrestecs": {
+                    "name": "maxPrestecs",
+                    "line": 62,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "exemplar": {
+                    "name": "exemplar",
+                    "line": 62,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "usuari": {
+                    "name": "usuari",
+                    "line": 62,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "__construct8": {
+            "name": "__construct8",
+            "line": 72,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "id": {
+                    "name": "id",
+                    "line": 72,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "dataSortida": {
+                    "name": "dataSortida",
+                    "line": 72,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "dataMaxDevolucio": {
+                    "name": "dataMaxDevolucio",
+                    "line": 72,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "dataRealDevolucio": {
+                    "name": "dataRealDevolucio",
+                    "line": 72,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "numPrestecs": {
+                    "name": "numPrestecs",
+                    "line": 72,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "maxPrestecs": {
+                    "name": "maxPrestecs",
+                    "line": 72,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "exemplar": {
+                    "name": "exemplar",
+                    "line": 72,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "usuari": {
+                    "name": "usuari",
+                    "line": 72,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getId": {
+            "name": "getId",
+            "line": 87,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getDataMaxDevolucio": {
+            "name": "getDataMaxDevolucio",
+            "line": 91,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDataMaxDevolucio": {
+            "name": "setDataMaxDevolucio",
+            "line": 95,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dataMaxDevolucio": {
+                    "name": "dataMaxDevolucio",
+                    "line": 95,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getDataRealDevolucio": {
+            "name": "getDataRealDevolucio",
+            "line": 99,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDataRealDevolucio": {
+            "name": "setDataRealDevolucio",
+            "line": 103,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dataRealDevolucio": {
+                    "name": "dataRealDevolucio",
+                    "line": 103,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getNumPrestecs": {
+            "name": "getNumPrestecs",
+            "line": 107,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setNumPrestecs": {
+            "name": "setNumPrestecs",
+            "line": 111,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "numPrestecs": {
+                    "name": "numPrestecs",
+                    "line": 111,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getMaxPrestecs": {
+            "name": "getMaxPrestecs",
+            "line": 115,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMaxPrestecs": {
+            "name": "setMaxPrestecs",
+            "line": 119,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "maxPrestecs": {
+                    "name": "maxPrestecs",
+                    "line": 119,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getExemplar": {
+            "name": "getExemplar",
+            "line": 123,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setExemplar": {
+            "name": "setExemplar",
+            "line": 127,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "exemplar": {
+                    "name": "exemplar",
+                    "line": 127,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUsuari": {
+            "name": "getUsuari",
+            "line": 131,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setUsuari": {
+            "name": "setUsuari",
+            "line": 136,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "usuari": {
+                    "name": "usuari",
+                    "line": 136,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "llistarPrestecs": {
+            "name": "llistarPrestecs",
+            "line": 153,
+            "short_desc": "## llistarPrestecs()\nMitjan\u00e7ant aquesta funci\u00f3 s'obtenen totes les files disponibles en la taula\nPrestecs (1 fila = 1 prestec), junt a les seves columnes (dades dels prestecs).",
+            "long_desc": "Aquestes files s\u00f3n guardades en un array per poder obtenir, m\u00e9s tard, les\ndades desitjades.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "author": [
+                    [
+                        "Roger",
+                        "Forner",
+                        "Fabre"
+                    ]
+                ]
+            },
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "insertarPrestec": {
+            "name": "insertarPrestec",
+            "line": 172,
+            "short_desc": "## insertarPrestec()\nMitjan\u00e7ant aquesta funci\u00f3 s'inserta un prestec a la base de dades.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "author": [
+                    [
+                        "Roger",
+                        "Forner",
+                        "Fabre"
+                    ]
+                ]
+            },
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "eliminarPrestec": {
+            "name": "eliminarPrestec",
+            "line": 193,
+            "short_desc": "## eliminarPrestec()\nMitjan\u00e7ant aquesta funci\u00f3 s'elimina un prestec de la base de dades.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "author": [
+                    [
+                        "Roger",
+                        "Forner",
+                        "Fabre"
+                    ]
+                ]
+            },
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "editarPrestec": {
+            "name": "editarPrestec",
+            "line": 205,
+            "short_desc": "## editarPrestec()\nMitjan\u00e7ant aquesta funci\u00f3 s'elimina un prestec de la base de dades.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "author": [
+                    [
+                        "Roger",
+                        "Forner",
+                        "Fabre"
+                    ]
+                ]
+            },
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}
